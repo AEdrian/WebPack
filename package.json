@@ -1,0 +1,42 @@
+{
+  "name": "WebPack",
+  "version": "1.0.0",
+  "description": "WEbPack Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build",
+    "build": "npx webpack -d && webpack-dev-server --content-base src/ --inline --hot --port"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AEdrian/WebPack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AEdrian/WebPack/issues"
+  },
+  "homepage": "https://github.com/AEdrian/WebPack#readme",
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.44",
+    "@babel/preset-env": "^7.0.0-beta.44",
+    "@babel/preset-react": "^7.0.0-beta.44",
+    "babel-loader": "^8.0.0-beta.2",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.7.0",
+    "node-sass": "^4.8.3",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
